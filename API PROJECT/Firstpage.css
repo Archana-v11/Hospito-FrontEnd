@@ -1,0 +1,341 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.full
+{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.364)50%,rgba(0, 0, 0, 0.332)50%),url('https://c1.wallpaperflare.com/preview/224/10/460/hospital-ward-hospital-medical-room.jpg');
+  
+   background-position: center;
+    background-size: cover;
+    height: 109vh;
+    position: fixed;
+    
+    
+} 
+.navbar
+{
+    width: 1600px;
+    height: 75px; 
+    margin: auto;
+    margin-left: 150px;
+   margin: 0;
+   background-color: rgba(255, 255, 255, 0.838);
+}
+
+.icon
+{
+    width: 200px;
+    height: 70px;
+    float: left;
+    margin-left: 170px;
+    font-size: 24px;
+}
+
+.head
+{
+    color:black;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 22px;
+    position: fixed;
+   
+}
+.menu
+{
+    width: 4000px;
+    float: left;
+    height: 70px;
+    position: fixed;
+    margin-left: 780px;
+    
+   
+}
+.menu ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.menu ul li
+{
+     list-style: none;
+     margin-left: 102px;
+     margin-top: 27px;
+     font-size: 17px;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.45 ease-in-out;
+    
+}
+.menu ul li a:hover
+{
+    color: #ff7200;
+}
+.search
+{
+    width: 330px;
+    float: left;
+    margin-left: 650px;
+}
+.srch 
+{
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    border-right: none;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn
+{
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus
+{
+    outline: none;
+}
+.srch:focus
+{
+    outline: none;
+}
+.content
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    text-align: left;
+}
+.content .para
+{
+    font-size: 55px;
+    padding-left: 28px;
+    margin-top: 14%;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman';
+}
+.content h1
+{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 28px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .bn
+{
+  width: 160px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 34px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+}
+.content .bn a
+{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+.bn:hover
+{
+   background-color: #fff;
+}
+.content span
+{
+    color: #ff7200;
+    font-size: 60px;
+}
+/*.form
+{
+    width: 250px;
+    height: 320px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.518)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2
+{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;   
+    padding: 8px;
+}
+.form input
+{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-left:  none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #ff7200;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus 
+{
+    outline: none;
+}*/
+::placeholder
+{ 
+    color: #fff;
+    font-family: Arial;
+}
+.bnlog
+{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.bnlog a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center; 
+}
+.icons a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon
+{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu ul li a:hover .sub-menu-1
+{
+    
+    display:block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -5px;
+    background-color: #ff7200;
+    width: 130px;
+     
+}
+.menu ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu-1 ul li
+{
+     
+     
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-right: 25px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    
+}
+.sec1
+{
+    font-size: 22;
+    font-family: 'Times New Roman';
+}
+.about,
+.service,
+.Design
+{
+    height: 100vh;
+    
+    align-items: center;
+}
+.about
+{
+   background-color: rgb(230, 248, 130);
+}
+.service
+{
+   background-color: rgb(155, 249, 155);
+}
+.Design
+{
+    background-color: rgb(182, 237, 255);
+}
